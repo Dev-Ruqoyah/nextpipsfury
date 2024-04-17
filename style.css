@@ -71,9 +71,40 @@ span{
     background: rgba(0, 0, 0, 0.562);
 }
 
+/* CONTACT */
+
+.herocontact h1{
+    font-size: 120px;
+}
+.contact{
+    height: 100vh !important;
+    background: url(https://img.freepik.com/premium-vector/email-icon-low-poly-design-abstract-geometric-image-sign-wireframe-mesh-polygonal-background_9385-105.jpg?w=740);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section.info{
+    background: #02030c;
+}
+.info input, .info textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 80%;
+    padding: 10px;
+}
+.info label{
+    color: white;
+    font-size: 23px;
+}
+
 @media (max-width:767px) {
     
     .perc{
         font-size: 35px;
+    }
+    .herocontact h1{
+        font-size: 100px;
     }
 }
