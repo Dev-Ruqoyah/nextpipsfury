@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+li a{
+    color: #2c3477 !important;
+   
+}
+a{
+    text-decoration: none !important;
+}
+i{
+    color: #2c3477;
+}
+.herobanner{
+    height: 70vh;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.836)),url("https://img.freepik.com/free-photo/office-skyscrapers-business-district_107420-95733.jpg?t=st=1713349932~exp=1713353532~hmac=2f4b8c622fc407f720b1fd95ac40b3a24b1f4024af4bc8e5af9413ee6643f0f2&w=3740");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.account{
+    height: 60vh;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.836)),url("https://img.freepik.com/free-photo/giant-building-with-sun_1127-400.jpg?t=st=1713353929~exp=1713357529~hmac=21baa4a8d3bbf64636163ee59ece56153d29e032157cdf5b7e0795cc46732fb9&w=3740");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+span{
+    color: #7c87e9 !important;
+}
+.borde{
+    width: 70px;
+    background: white;
+    height: 3px;
+}
+.borde1{
+    width: 70px;
+    background: #2c3477;
+    height: 3px;
+    margin-top: 13px;
+}
+.invest{
+    font-size: 18px;
+}
+.head{
+    background: #7c87e9;
+}
+.head h3{
+    background: #2c3477 ;
+}
+.perc{
+    font-size: 60px !important;
+}
+.content-two{
+    height: 230px;
+}
+.btn-lightee{
+    background: #2c3477;
+    color: white;
+}
+.btn-lightee:hover{
+    background: #7c87e9;
+}
+.bg-lightee{
+    background: rgba(0, 0, 0, 0.562);
+}
+
+@media (max-width:767px) {
+    
+    .perc{
+        font-size: 35px;
+    }
+}
